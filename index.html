@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد محمد علي!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="birthday-card">
+        <!-- Welcome Screen -->
+        <div class="welcome-screen animate__animated animate__fadeIn">
+            <h1 class="animate__animated animate__bounceIn">اضغط لفتح بطاقة عيد الميلاد</h1>
+            <div class="click-icon animate__animated animate__heartBeat animate__infinite">
+                <i class="fas fa-hand-pointer"></i>
+            </div>
+        </div>
+
+        <!-- Main Content (Hidden Initially) -->
+        <div class="main-content d-none">
+            <!-- Animated Background Elements -->
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            
+            <!-- Balloons Animation -->
+            <div class="balloon balloon-1"></div>
+            <div class="balloon balloon-2"></div>
+            <div class="balloon balloon-3"></div>
+            <div class="balloon balloon-4"></div>
+            <div class="balloon balloon-5"></div>
+            
+            <!-- Bubbles Animation -->
+            <div class="bubbles-container"></div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <!-- Image Slider -->
+                        <div class="image-slider-container">
+                            <div class="image-slider">
+                                <div class="slide active">
+                                    <img src="images/mohamed ali 1.jpeg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/mohamed ali 11.jpg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/mohamed ali 13.jpg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/mohamed ali 12.jpg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/mohamed ali 1123.jpeg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/mohamed ali 2.jpeg" alt="صورة محمد علي" class="profile-img">
+                                </div>
+                            </div>
+                            <div class="slider-controls">
+                                <button class="slider-btn prev-btn"><i class="fas fa-chevron-right"></i></button>
+                                <button class="slider-btn next-btn"><i class="fas fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                        
+                        <h1 class="mt-4 animate__animated animate__fadeInDown">عيد ميلاد سعيد</h1>
+                        <h2 class="name animate__animated animate__fadeInUp">محمد علي!</h2>
+                        <p class="age animate__animated animate__fadeIn">🎉 <span class="counter">31</span> سنة 🎉</p>
+
+                        <!-- Progress Bar (Age) -->
+                        <div class="progress-container animate__animated animate__fadeIn">
+                            <div class="progress-bar"></div>
+                        </div>
+
+                        <div class="message animate__animated animate__fadeIn">
+                            <p>كل عام وأنت بخير يا غالي!</p>
+                            <p>أدام الله عليك نعمة الصحة والعافية</p>
+                            <p>وكل عام وأنت أكثر تميزاً ونجاحاً</p>
+                            <p>وأنت إلى الله أقرب ❤️</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons animate__animated animate__fadeInUp">
+                <button class="btn btn-primary music-btn">
+                    <i class="fas fa-pause"></i> إيقاف الموسيقى
+                </button>
+                <button class="btn btn-success wishes-btn">
+                    <i class="fas fa-heart"></i> كلمات تهنئة
+                </button>
+            </div>
+
+            <!-- Wishes Message (Hidden Initially) -->
+            <div class="wishes-modal">
+                <div class="wishes-content">
+                    <span class="close-btn">&times;</span>
+                    <h3>أمنياتنا القلبية لك في عيد ميلادك</h3>
+                    <ul>
+                        <li>صحة دائمة وعمر مديد في رضا الله</li>
+                        <li>سعادة لا تنتهي وفرح يملأ حياتك</li>
+                        <li>توفيق ونجاح في العمل</li>
+                        <li>تحقيق كل الأحلام والطموحات</li>
+                        <li>بركة في الوقت والرزق</li>
+                        <li>رضا الوالدين وحب العائلة</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Music Player (Hidden) -->
+            <audio class="birthday-song" loop autoplay>
+                <source src="images/sounds/Albumaty.Com.Hamada.Helal.Elnhrda.Eid.Melad.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
