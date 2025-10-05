@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
     align-items: center;
     background: linear-gradient(135deg, #d6ea66 0%, #ffa705 100%);
     color: white;
@@ -40,7 +41,6 @@ body {
 
 /* Main Content */
 .main-content {
-    height: 100vh;
     padding-top: 14px;
     position: relative;
 }
@@ -49,13 +49,13 @@ body {
 .image-slider-container {
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .image-slider {
     position: relative;
-    width: 320px;
-    height: 320px;
+    width: 290px;
+    height: 290px;
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid white;
@@ -114,41 +114,41 @@ h1 {
     font-size: 3rem;
     color: #764ba2;
     font-weight: 900;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .name {
     font-size: 2.5rem;
     color: #667eea;
     font-weight: 700;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .age {
     font-size: 2rem;
     color: #333;
-    margin: 20px 0;
+    margin: 14px 0;
 }
 
 .message {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 16px;
     border-radius: 10px;
-    margin: 22px auto;
+    margin: 14px auto;
     max-width: 600px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .message p {
     font-size: 1.2rem;
-    margin: 10px 0;
+    margin: 6px 0;
 }
 
 .buttons {
-    margin: 16px 0;
+    margin: 12px 0;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 14px;
     flex-wrap: wrap;
 }
 
@@ -208,7 +208,7 @@ h1 {
 
 .wishes-content li {
     font-size: 1.2rem;
-    margin: 15px 0;
+    margin: 13px 0;
     padding-right: 30px;
     position: relative;
 }
@@ -394,7 +394,7 @@ h1 {
     }
     
     .image-slider {
-        width: 320px;
-        height: 320px;
+        width: 290px;
+        height: 290px;
     }
 }
